@@ -169,7 +169,7 @@ let urlIndex = 0; // Índice para alternar entre as URLs
 
 
 const urls = [
-    "https://oauth.semrush.com/oauth2/authorize?client_id=zapier&state=pVRR4pix2pY6XI24bxz7hF3dcBobUMJ2782bKLd6Xkc&redirect_uri=https%3A%2F%2Fzapier.com%2Fdashboard%2Fauth%2Foauth%2Freturn%2FSEMrushCLIAPI%2F&response_type=code&scope=user.id%2Csiteaudit.info&abc=#tokens-button-approve"
+    "https://oauth.semrush.com/oauth2/authorize?client_id=zapier&state=GE7GSdnj6B0oTYYNsU9vK2LlWnX-o3OmtjBi4ENZXlI&redirect_uri=https%3A%2F%2Fzapier.com%2Fdashboard%2Fauth%2Foauth%2Freturn%2FSEMrushCLIAPI%2F&response_type=code&scope=user.id%2Csiteaudit.info&abc=#tokens-button-approve"
 ];
 
 
