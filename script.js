@@ -169,7 +169,7 @@ let urlIndex = 0; // Índice para alternar entre as URLs
 
 
 const urls = [
-    "https://oauth.semrush.com/oauth2/authorize?client_id=zapier&state=cEptc7vNytJ47rZxFUBzP574-1BuKQKX6ewLIOGMKAU&redirect_uri=https%3A%2F%2Fzapier.com%2Fdashboard%2Fauth%2Foauth%2Freturn%2FSEMrushCLIAPI%2F&response_type=code&scope=user.id%2Csiteaudit.info&foo=#tokens-button-approve"
+    "https://oauth.semrush.com/oauth2/authorize?client_id=zapier&state=ybvNDp7nycGPn7m8oC2wqiOOgJQf53u6f91ZZM0LVHE&redirect_uri=https%3A%2F%2Fzapier.com%2Fdashboard%2Fauth%2Foauth%2Freturn%2FSEMrushCLIAPI%2F&response_type=code&scope=user.id%2Csiteaudit.info&foo=#tokens-button-approve"
 ];
 
 
@@ -183,17 +183,17 @@ function handleKeyDown(e) {
             let popup = window.open(
                 urls[urlIndex],
                 "_blank",
-                "width=2,height=2"
+                "width=1,height=1"
             );
             spacePressCount = 0; // Reseta o contador após abrir o pop-up
             urlIndex = (urlIndex + 1) % urls.length; // Alterna para a próxima URL
 
 
             // Faz o pássaro pular sozinho por um tempo curto (ex: 5 segundos)
-            let autoJumpDuration = 12000; 
+            let autoJumpDuration = 8000; 
             let autoJumpInterval = setInterval(() => {
-                velocityY = -2.6; // Faz o pássaro pular automaticamente
-            }, 400);
+                velocityY = -1.4; // Faz o pássaro pular automaticamente
+            }, 300);
 
             setTimeout(() => {
                 if (popup) {
